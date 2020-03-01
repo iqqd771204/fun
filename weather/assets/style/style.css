@@ -1,0 +1,19 @@
+html {
+	background: url(/weather/assets/img/s.jpg);
+	background-size: 100%;
+}
+
+body{
+	background: none;
+}
+
+.name{
+	text-align: center;
+	font-family: Arial;
+	margin-top: 15%;
+	margin-bottom: 3%;
+}
+
+.alert{
+	margin-top: 3%;
+}
