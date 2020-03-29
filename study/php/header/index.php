@@ -14,8 +14,10 @@
 		</form>
 	</center>
 	<?php 
-		$redirect="Location: ". $_REQUEST['button'].".php";
-		echo header($redirect);
+		if (isset($_REQUEST['button'])) {
+			$redirect="Location: ". $_REQUEST['button'].".php";
+			echo header($redirect);
+		}
 	 ?>
 </body>
 </html>
